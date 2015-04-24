@@ -11,6 +11,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            Console.WriteLine("The current time is {0}.", DateTime.Now);
             Console.ReadLine();
         }
     }
